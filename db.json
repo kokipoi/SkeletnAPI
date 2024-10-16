@@ -1,0 +1,54 @@
+{
+  "cliente": [
+    {
+      "id": 1,
+      "nombre": "asdasd",
+      "edad": 22
+    },
+    {
+      "id": 2,
+      "nombre": "Martin",
+      "edad": 20
+    },
+    {
+      "id": 3,
+      "nombre": "Sofia",
+      "edad": 33
+    },
+    {
+      "id": 4,
+      "nombre": "Mimi",
+      "edad": 22
+    },
+    {
+      "id": 5,
+      "nombre": "Javiera",
+      "edad": 12
+    },
+    {
+      "id": 6,
+      "nombre": "Gyro",
+      "edad": 41
+    },
+    {
+      "id": 7,
+      "nombre": "Coco",
+      "edad": 55
+    },
+    {
+      "id": 8,
+      "nombre": "Paty",
+      "edad": 66
+    },
+    {
+      "id": 9,
+      "nombre": "Mendez",
+      "edad": 61
+    },
+    {
+      "id": 10,
+      "nombre": "Catalina",
+      "edad": 77
+    }
+  ]
+}

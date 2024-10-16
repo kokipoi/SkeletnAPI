@@ -5,6 +5,7 @@
   left: 0;
   right: 0;
   top: 50%;
+
   transform: translateY(-50%);
 }
 
@@ -24,4 +25,32 @@
 
 #container a {
   text-decoration: none;
+}
+
+#lista {
+  background-color: aqua;
+}
+
+.scrollable-list {
+  height: 300px; /* Altura fija para el contenedor de la lista */
+  overflow-y: auto; /* Habilita el scroll vertical */
+  margin-bottom: 20px; /* Espaciado para separar del resto del contenido */
+  border: 1px solid #575757; /* Borde opcional */
+  scroll-snap-type: y mandatory; /* Activa el ajuste del scroll en el eje Y */
+}
+
+ion-list {
+  padding: 10px;
+}
+
+ion-item {
+  height: 50px; /* Altura fija para cada item */
+  scroll-snap-align: start; /* Ajusta el inicio de cada item al hacer scroll */
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc; /* Opcional: añade un borde inferior a cada item */
+}
+
+ion-item:last-child {
+  border-bottom: none; /* Elimina la línea en el último item */
 }
